@@ -1,6 +1,6 @@
 #sys provides info of exception and all
 import sys
-import logging
+#from src.logger import logging if to log inside in exception 
 
 def error_message_detail(error,error_detail:sys):
 	# add an indented block of code here

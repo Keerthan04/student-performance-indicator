@@ -7,4 +7,5 @@ catboost
 scikit-learn
 ipykernel
 dill
+Flask
 #-e .

@@ -6,7 +6,6 @@ This project aims to predict students' performance (test scores) based on variou
 
 - [Problem Statement](#problem-statement)
 - [Data Collection](#data-collection)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Enhancements](#enhancements)
@@ -20,47 +19,6 @@ This project understands how the student's performance (test scores) is affected
 
 - **Dataset Source**: [Kaggle - Student Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
 - The data consists of 8 columns and 1000 rows.
-
-## Project Structure
-
-student-performance-indicator/
-│
-├── artifacts/
-│ ├── train/
-│ ├── test/
-│ └── raw.csv
-│
-├── logs/
-│
-├── notebook/
-│ ├── data/
-│ │ └── dataset.csv
-│ ├── eda_notebook.ipynb
-│ └── model_training_notebook.ipynb
-│
-├── src/
-│ ├── components/
-│ │ ├── init.py
-│ │ ├── dataingestion.py
-│ │ ├── datatransformation.py
-│ │ └── model_trainer.py
-│ ├── pipeline/
-│ │ └── predictionpipeline.py
-│ ├── exceptions.py
-│ ├── logger.py
-│ └── utils.py
-│
-├── templates/
-│ ├── index.html
-│ └── home.html
-│
-├── venv/
-│
-├── application.py
-├── requirements.txt
-├── setup.py
-├── README.md
-└── .gitignore
 
 ## Installation
 
